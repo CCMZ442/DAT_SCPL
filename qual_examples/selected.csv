@@ -1,0 +1,7 @@
+class_id,class_name,image_file,max_bbox_area(norm)
+0,open,50600011_test.jpg,0.040588372656
+1,short,92000020_test.jpg,0.0202196625
+2,mousebite,92000000_test.jpg,0.010283162500000002
+3,spur,44000078_test.jpg,0.005615234375
+4,pinhole,13000159_test.jpg,0.009990234375
+5,spurious_copper,77000076_test.jpg,0.00732421875

@@ -1,0 +1,6 @@
+tag,q,qs,mAP50,mAP50_95,P,R,csv
+r10_seed0_q40_qs0.30,40,0.3,0.9561965689748826,0.7083570082370401,0.9129483433267804,0.913579377427827,D:\ultralytics2\ultralytics-8.3.235\DeepPCB-master\DeepPCB-master\deeppcb_yolo\runs_ssod_paper3_one\r10_seed0_q40_qs0.30_final_val\final_metrics.csv
+r10_seed0_q50_qs0.30,50,0.3,0.9622955385875964,0.7152903285951031,0.9571971884365412,0.8792175456983634,D:\ultralytics2\ultralytics-8.3.235\DeepPCB-master\DeepPCB-master\deeppcb_yolo\runs_ssod_paper3_one\r10_seed0_q50_qs0.30_final_val\final_metrics.csv
+r10_seed0_q60_qs0.30,60,0.3,0.9635546936880336,0.7174999772757205,0.937780219326266,0.9014760279692344,D:\ultralytics2\ultralytics-8.3.235\DeepPCB-master\DeepPCB-master\deeppcb_yolo\runs_ssod_paper3_one\r10_seed0_q60_qs0.30_final_val\final_metrics.csv
+r10_seed0_q70_qs0.30,70,0.3,0.9369053881242886,0.7063532789210322,0.9395956167829352,0.8572592505565416,D:\ultralytics2\ultralytics-8.3.235\DeepPCB-master\DeepPCB-master\deeppcb_yolo\runs_ssod_paper3_one\r10_seed0_q70_qs0.30_final_val\final_metrics.csv
+r10_seed0_q80_qs0.30,80,0.3,0.9240059889529524,0.6771516812415457,0.9402123778770664,0.8310314311801461,D:\ultralytics2\ultralytics-8.3.235\DeepPCB-master\DeepPCB-master\deeppcb_yolo\runs_ssod_paper3_one\r10_seed0_q80_qs0.30_final_val\final_metrics.csv

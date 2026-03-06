@@ -1,0 +1,36 @@
+{
+  "DATA_ROOT": "D:\\ultralytics2\\ultralytics-8.3.235\\DeepPCB-master\\DeepPCB-master\\deeppcb_yolo",
+  "PSEUDO_ROOT": "D:\\ultralytics2\\ultralytics-8.3.235\\DeepPCB-master\\DeepPCB-master\\deeppcb_yolo\\runs_ssod_paper3_one\\r10_seed0_pseudo_labels",
+  "by_split": {
+    "train": {
+      "images_total": 900,
+      "images_with_gt": 900,
+      "images_with_pseudo": 810,
+      "pseudo_empty_rate": 0.003703703703703704,
+      "avg_pseudo_boxes_per_image": 5.3765432098765435,
+      "avg_gt_boxes_per_image": 6.881111111111111,
+      "avg_match_precision_iou50": 0.9463116376079339,
+      "avg_match_recall_iou50": 0.7515673489747561
+    },
+    "val": {
+      "images_total": 100,
+      "images_with_gt": 100,
+      "images_with_pseudo": 0,
+      "pseudo_empty_rate": 0.0,
+      "avg_pseudo_boxes_per_image": 0.0,
+      "avg_gt_boxes_per_image": 6.8,
+      "avg_match_precision_iou50": 0.0,
+      "avg_match_recall_iou50": 0.0
+    },
+    "test": {
+      "images_total": 500,
+      "images_with_gt": 500,
+      "images_with_pseudo": 0,
+      "pseudo_empty_rate": 0.0,
+      "avg_pseudo_boxes_per_image": 0.0,
+      "avg_gt_boxes_per_image": 6.28,
+      "avg_match_precision_iou50": 0.0,
+      "avg_match_recall_iou50": 0.0
+    }
+  }
+}

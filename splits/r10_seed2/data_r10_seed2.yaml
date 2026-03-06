@@ -1,0 +1,6 @@
+path: D:/ultralytics2/ultralytics-8.3.235/DeepPCB-master/DeepPCB-master/deeppcb_yolo
+train: images/train_r10_seed2
+val: images/val
+test: images/test
+nc: 6
+names: ['open', 'short', 'mousebite', 'spur', 'pinhole', 'spurious_copper']
