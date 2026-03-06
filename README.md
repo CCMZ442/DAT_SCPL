@@ -38,3 +38,90 @@ DAT_SCPL/
 ├─ requirements.txt          # Python dependencies
 ├─ LICENSE
 └─ README.md
+
+
+## Environment
+We recommend Python 3.9+ with PyTorch and Ultralytics installed.
+Install dependencies with:
+pip install -r requirements.txt
+If needed, please additionally install versions of torch, torchvision, and ultralytics that match your local CUDA environment.
+
+## Dataset Preparation
+Experiments are conducted on DeepPCB.
+Please organize the dataset in a structure compatible with the scripts, for example:
+deeppcb_yolo/
+├─ images/
+│  ├─ train/
+│  ├─ val/
+│  └─ test/
+├─ labels/
+├─ splits/
+│  ├─ r01_seed0/
+│  ├─ r01_seed1/
+│  ├─ r01_seed2/
+│  ├─ r05_seed0/
+│  ├─ r05_seed1/
+│  ├─ r05_seed2/
+│  ├─ r10_seed0/
+│  ├─ r10_seed1/
+│  ├─ r10_seed2/
+│  ├─ r20_seed0/
+│  ├─ r20_seed1/
+│  └─ r20_seed2/
+
+
+This repository provides split definition files under splits/, including labeled and unlabeled partitions for all labeled ratios and random seeds used in the paper.Note: the DeepPCB dataset itself is not redistributed in this repository.
+
+## Main Scripts
+DAT-SCPL
+python run_dat_scpl.py --tag r20_seed0
+
+DAT-only baseline
+python run_dat_only.py --tag r20_seed0
+
+Fixed-threshold SSOD baseline
+python run_fixedtau.py --tag r20_seed0
+
+These scripts correspond to the three main settings reported in the paper:
+DAT-SCPL
+DAT-only
+Fixed-threshold SSOD baseline
+
+
+## Reproducing Main Results
+1. Run experiments
+Use the main scripts above for a given ratio/seed tag, for example:
+r01_seed0
+r05_seed1
+r10_seed2
+r20_seed0
+2. Summarize metrics
+Utility scripts in code/ can be used to inspect and summarize outputs, for example:
+python code/print_metrics_r20_seed12.py
+python code/print_metrics_r01_r10_seed012.py
+3. Reproduce paper figures and tables
+Scripts in paper_fig_assets/ are used to reproduce paper assets, including:
+main comparison table
+main performance curve
+SCPL sensitivity figure
+pseudo-label statistics
+
+## Examples:
+python paper_fig_assets/make_main_table_all_ratios.py
+python paper_fig_assets/plot_main_curve_map5095.py
+python paper_fig_assets/plot_scpl_sensitivity_paper.py --root YOUR_PROJECT_ROOT --split_tag r10_seed0 --runs_dir runs_ssod_paper3_one --metric mAP50_95
+python paper_fig_assets/plot_pseudo_overall.py
+
+Notes: This repository focuses on the paper reproduction pipeline, rather than a fully cleaned engineering framework.
+Large model checkpoints, training logs, and dataset files are not included.
+Some scripts were originally developed for local Windows-based experiments and may require path adjustment before use in a different environment.
+
+## Reproducibility Statement
+This repository is intended to support reproducibility of the main experimental results reported in our manuscript submitted to The Visual Computer.
+It includes:
+split definitions,
+main training and inference scripts,
+baseline scripts,
+metric summarization scripts,
+paper figure generation scripts.
+If you use this repository in academic work, please cite the corresponding manuscript.
