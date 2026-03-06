@@ -186,13 +186,14 @@ If you use this repository in academic work, please cite the corresponding manus
 ---
 
 If our paper is accepted, BibTeX information will be updated here.
+```bash
 @article{chen2026datscpl,
   title={DAT-SCPL: Semi-Supervised Small-Defect Detection with Distribution-Aware Thresholding and Confidence Screening},
   author={Chen, Mingzhi and Sun, Ping and Xu, Yang and Chen, Guodong},
   journal={The Visual Computer},
   year={2026}
 }
-
+```
 
 ## License
 
