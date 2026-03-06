@@ -181,4 +181,6 @@ It includes:
 If you use this repository in academic work, please cite the corresponding manuscript.
 
 ---
+## License
 
+This project is released under the MIT License. See LICENSE for details.
