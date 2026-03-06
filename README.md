@@ -181,6 +181,19 @@ It includes:
 If you use this repository in academic work, please cite the corresponding manuscript.
 
 ---
+
+## Citation
+---
+
+If our paper is accepted, BibTeX information will be updated here.
+@article{chen2026datscpl,
+  title={DAT-SCPL: Semi-Supervised Small-Defect Detection with Distribution-Aware Thresholding and Confidence Screening},
+  author={Chen, Mingzhi and Sun, Ping and Xu, Yang and Chen, Guodong},
+  journal={The Visual Computer},
+  year={2026}
+}
+
+
 ## License
 
 This project is released under the MIT License. See LICENSE for details.
