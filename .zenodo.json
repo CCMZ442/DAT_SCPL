@@ -1,0 +1,34 @@
+{
+  "title": "DAT-SCPL: Semi-Supervised Small-Defect Detection with Distribution-Aware Thresholding and Confidence Screening",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Chen, Mingzhi",
+      "affiliation": "Shandong Jiaotong University"
+    },
+    {
+      "name": "Sun, Ping",
+      "affiliation": "Shandong Jiaotong University"
+    },
+    {
+      "name": "Xu, Yang",
+      "affiliation": "Shandong Jiaotong University"
+    },
+    {
+      "name": "Chen, Guodong",
+      "affiliation": "Shandong Jiaotong University"
+    }
+  ],
+  "keywords": [
+    "semi-supervised object detection",
+    "industrial defect detection",
+    "tiny defect detection",
+    "pseudo labeling",
+    "DeepPCB",
+    "YOLO"
+  ],
+  "description": "Official implementation of DAT-SCPL for semi-supervised small-defect detection on DeepPCB. This repository accompanies our manuscript submitted to The Visual Computer and includes core scripts, split files, and figure-generation code for reproducibility."
+}
